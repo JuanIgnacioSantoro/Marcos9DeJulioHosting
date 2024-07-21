@@ -1,0 +1,73 @@
+h1 {
+    padding-top: 2%;
+    color: navy;
+}
+
+.titulo {
+    color: #003989;
+}
+
+.seccionActual {
+    color: black;
+}
+
+.listaDeClientes {
+    color: white;
+}
+
+h1, h2, h3, form, #BaseDeDatos {
+    text-align: center;
+    color: white;
+}
+
+#a {
+    text-align: right;
+    text-decoration: none;
+    color:white;
+}
+
+#ingreso {
+    Color: grey;
+}
+
+#inicio {
+    Color: green;
+}
+
+#finalizado {
+    Color: red;
+}
+
+#banner {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.background-image {
+    background: linear-gradient(to bottom, white, #003989, black);
+    width: 100vw;
+    height: 110vh;
+    margin: 0;
+}
+
+.background-image-2 {
+    background: linear-gradient(to bottom, black, #003989, black);
+    width: 100vw;
+    height: 110vh;
+    margin: 0;
+}
+
+#icono {
+    height: 5vh;
+    margin: 5px;
+}
+
+.custom-carousel {
+    max-width: 600px;  /* Ajusta el ancho máximo del carrusel */
+    margin: 0 auto;    /* Centra el carrusel horizontalmente */
+}
+
+#Tabla {
+    width: 100%;
+}
