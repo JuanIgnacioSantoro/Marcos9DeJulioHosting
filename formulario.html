@@ -1,83 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <title>Gestión de clientes</title>
-    </head>
-<body>
-<div class="background-image">
-    <div>
-        <header>
-            <h1 class="titulo">Taller de Marcos 9 Julio</h1>
-            <h2 class="titulo">Desde 1955</h2>
-            <h2 class="titulo">de Roberto Omar Coria y Juan Ignacio Santoro</h2>
-            <h3 class="seccionActual">Gestión de clientes</h3>
-            <div class="d-flex justify-content-center">
-                <a id="a" href="index.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Inicio |</a>
-                <a id="a" href="trabajos.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Galería de trabajos |</a>
-                <a id="a" href="pedidos.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Hacé tu pedido |</a>
-                <a id="a" href="formulario.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Gestión de clientes |</a>
-            </div>
-            <div class="d-flex justify-content-center">
-                <a id="a" target="_blank" href="https://www.facebook.com/marcos.9.de.julio/"><img id="icono" src="./images/Facebook.png" alt="Logo Facebook">Facebook |</a>
-                <a id="a" target="_blank" href="https://www.instagram.com/marcos.9.de.julio/"><img id="icono" src="./images/Instagram.png" alt="Logo Instagram">Instagram |</a>
-                <a id="a" target="_blank" href="https://wa.me/+5493487526500"><img id="icono" src="./images/WhatsApp.png" alt="Logo WhatsApp">WhatsApp |</a>
-            </div>
-        </header>
-        <form id="myForm" action="/guardar-datos" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"><br><br>
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido"><br><br>
-            <label for="contacto">Contacto:</label>
-            <input type="number" id="contacto" name="contacto"><br><br>
-            <label for="ingreso">Ingreso:</label>
-            <input type="datetime-local" id="ingreso" name="ingreso"><br><br>
-            <label for="detalles">Detalles:</label>
-            <input type="text" id="detalles" name="detalles"><br><br>
 
-            <input type="submit" value="Registrar" class="btn btn-light">
-        </form>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Gestión de clientes</title>
+</head>
+
+<body>
+    <div class="background-image">
+        <div>
+            <header>
+                <h1 class="titulo">Taller de Marcos 9 Julio</h1>
+                <h2 class="titulo">Desde 1955</h2>
+                <h2 class="titulo">de Roberto Omar Coria</h2>
+                <h2 class="titulo">y Juan Ignacio Santoro</h2>
+                <h3 class="seccionActual">Gestión de clientes</h3>
+                <img id="banner" src="./images/Logotipo transparente solo blanco.png" alt="Logotipo" />
+                <div class="row justify-content-center">
+                    <a id="a" href="index.html">> Inicio</a>
+                    <a id="a" href="trabajos.html">> Galería de trabajos</a>
+                    <a id="a" href="pedidos.html">> Hacé tu pedido</a>
+                    <a id="a" href="formulario.html">> Gestión de clientes</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a id="a" target="_blank" href="https://www.facebook.com/marcos.9.de.julio/"><img id="icono"
+                            src="./images/Facebook.png" alt="Logo Facebook">Facebook |</a>
+                    <a id="a" target="_blank" href="https://www.instagram.com/marcos.9.de.julio/"><img id="icono"
+                            src="./images/Instagram.png" alt="Logo Instagram">Instagram |</a>
+                    <a id="a" target="_blank" href="https://wa.me/+5493487708708"><img id="icono"
+                            src="./images/WhatsApp.png" alt="Logo WhatsApp">WhatsApp |</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img id="icono" src="./images/Logo 9J.png" alt="Logo">
+                </div>
+            </header>
+            <form id="myForm" action="/guardar-datos" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><br><br>
+                <label for="contacto">Contacto:</label>
+                <input type="number" id="contacto" name="contacto"><br><br>
+                <label for="ingreso">Ingreso:</label>
+                <input type="datetime-local" id="ingreso" name="ingreso"><br><br>
+                <label for="detalles">Detalles:</label>
+                <input type="text" id="detalles" name="detalles"><br><br>
+
+                <input type="submit" value="Registrar" class="btn btn-light">
+            </form>
+        </div>
+        <div id="BaseDeDatos">
+            <h1>Lista de clientes</h1>
+            <p>(Requiere base de datos)</p>
+            <p>(No disponible por el momento)</p>
+            <button id="BotonCargar" class="btn btn-light">Cargar clientes</button>
+            <table id="Tabla" style="display: none;" class="table table-striped table-primary table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Ingreso fecha</th>
+                        <th>Ingreso hora</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Detalles</th>
+                        <th>Contacto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+        </div>
     </div>
-    <div id="BaseDeDatos">
-        <h1>Lista de clientes</h1>
-        <p>(Requiere base de datos)</p>
-        <p>(No disponible por el momento)</p>
-        <button id="BotonCargar" class="btn btn-light">Cargar clientes</button>
-        <table id="Tabla" style="display: none;" class="table table-striped table-primary table-hover">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Ingreso fecha</th>
-                    <th>Ingreso hora</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Detalles</th>
-                    <th>Contacto</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-    </div>
-</div>
-<script>
-    document.getElementById('BotonCargar').addEventListener('click', async function() {
-        try {
-            const response = await fetch('/app/basededatos');
-            if (!response.ok) {
-                throw new Error('La conexión no es correcta.');
-            }
-            const clientesTest = await response.json();
-            const tableBody = document.querySelector('#Tabla tbody');
-            tableBody.innerHTML = ''; // Limpiar tabla existente.
-            clientesTest.forEach(clientesTest => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
+    <script>
+        document.getElementById('BotonCargar').addEventListener('click', async function () {
+            try {
+                const response = await fetch('/app/basededatos');
+                if (!response.ok) {
+                    throw new Error('La conexión no es correcta.');
+                }
+                const clientesTest = await response.json();
+                const tableBody = document.querySelector('#Tabla tbody');
+                tableBody.innerHTML = ''; // Limpiar tabla existente.
+                clientesTest.forEach(clientesTest => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
                     <td>${clientesTest.id}</td>
                     <td>${clientesTest.solo_fecha}</td>
                     <td>${clientesTest.solo_hora}</td>
@@ -86,13 +99,14 @@
                     <td>${clientesTest.detalles}</td>
                     <td><a href="https://wa.me/+${clientesTest.contacto}">https://wa.me/+${clientesTest.contacto}</a></td>
                 `;
-                tableBody.appendChild(row);
-            });
-            document.getElementById('Tabla').style.display = 'table';
-        } catch (error) {
-            console.error('Hay un problema con la operación fetch.', error);
-        }
-    });
-</script>
+                    tableBody.appendChild(row);
+                });
+                document.getElementById('Tabla').style.display = 'table';
+            } catch (error) {
+                console.error('Hay un problema con la operación fetch.', error);
+            }
+        });
+    </script>
 </body>
+
 </html>

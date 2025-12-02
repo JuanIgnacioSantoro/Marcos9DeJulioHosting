@@ -21,7 +21,7 @@ h1, h2, h3, form, #BaseDeDatos {
 }
 
 #a {
-    text-align: right;
+    text-align: center;
     text-decoration: none;
     color:white;
 }
@@ -39,22 +39,22 @@ h1, h2, h3, form, #BaseDeDatos {
 }
 
 #banner {
-    width: 50%;
+    width: 75%;
     display: block;
     margin: auto;
 }
 
 .background-image {
     background: linear-gradient(to bottom, white, #003989, black);
-    width: 100vw;
-    height: 110vh;
+    width: 100%;
+    height: 100%;
     margin: 0;
 }
 
 .background-image-2 {
     background: linear-gradient(to bottom, black, #003989, black);
-    width: 100vw;
-    height: 110vh;
+    width: 100%;
+    height: 100%;
     margin: 0;
 }
 

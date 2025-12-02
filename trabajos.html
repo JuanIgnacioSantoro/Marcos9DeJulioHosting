@@ -1,105 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <title>Galería de rabajos</title>
-    </head>
-    <body>
-        <div class="background-image">
-            <header>
-                <h1 class="titulo">Taller de Marcos 9 Julio</h1>
-                <h2 class="titulo">Desde 1955</h2>
-                <h2 class="titulo">de Roberto Omar Coria y Juan Ignacio Santoro</h2>
-                <h3 class="seccionActual">Galería de trabajos</h3>
-                <div class="d-flex justify-content-center">
-                    <a id="a" href="index.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Inicio |</a>
-                    <a id="a" href="trabajos.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Galería de trabajos |</a>
-                    <a id="a" href="pedidos.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Hacé tu pedido |</a>
-                    <a id="a" href="formulario.html"><img id="icono" src="./images/Logo 9J.png" alt="Logo">Gestión de clientes |</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Galería de rabajos</title>
+</head>
+
+<body>
+    <div class="background-image">
+        <header>
+            <h1 class="titulo">Taller de Marcos 9 Julio</h1>
+            <h2 class="titulo">Desde 1955</h2>
+            <h2 class="titulo">de Roberto Omar Coria</h2>
+            <h2 class="titulo">y Juan Ignacio Santoro</h2>
+            <h3 class="seccionActual">Galería de trabajos</h3>
+            <img id="banner" src="./images/Logotipo transparente solo blanco.png" alt="Logotipo" />
+            <div class="row justify-content-center">
+                <a id="a" href="index.html">> Inicio</a>
+                <a id="a" href="trabajos.html">> Galería de trabajos</a>
+                <a id="a" href="pedidos.html">> Hacé tu pedido</a>
+                <a id="a" href="formulario.html">> Gestión de clientes</a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a id="a" target="_blank" href="https://www.facebook.com/marcos.9.de.julio/"><img id="icono"
+                        src="./images/Facebook.png" alt="Logo Facebook">Facebook |</a>
+                <a id="a" target="_blank" href="https://www.instagram.com/marcos.9.de.julio/"><img id="icono"
+                        src="./images/Instagram.png" alt="Logo Instagram">Instagram |</a>
+                <a id="a" target="_blank" href="https://wa.me/+5493487708708"><img id="icono"
+                        src="./images/WhatsApp.png" alt="Logo WhatsApp">WhatsApp |</a>
+            </div>
+        </header>
+        <div id="carouselExample" class="carousel slide custom-carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/Trabajos/4.jpg" alt="Third slide" />
                 </div>
-                <div class="d-flex justify-content-center">
-                    <a id="a" target="_blank" href="https://www.facebook.com/marcos.9.de.julio/"><img id="icono" src="./images/Facebook.png" alt="Logo Facebook">Facebook |</a>
-                    <a id="a" target="_blank" href="https://www.instagram.com/marcos.9.de.julio/"><img id="icono" src="./images/Instagram.png" alt="Logo Instagram">Instagram |</a>
-                    <a id="a" target="_blank" href="https://wa.me/+5493487526500"><img id="icono" src="./images/WhatsApp.png" alt="Logo WhatsApp">WhatsApp |</a>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/5.jpg" alt="Third slide" />
                 </div>
-            </header>
-                <div id="carouselExample" class="carousel slide custom-carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="./images/Trabajos/4.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/5.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/6.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/7.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/8.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/9.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/10.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/11.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/12.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/13.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/14.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/15.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/16.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/17.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/18.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/19.jpg" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/20.png" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/21.png" alt="Third slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/Trabajos/22.jpg" alt="Third slide" />
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/6.jpg" alt="Third slide" />
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/7.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/8.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/9.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/10.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/11.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/12.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/13.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/14.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/15.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/16.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/17.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/18.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/19.jpg" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/20.png" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/21.png" alt="Third slide" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Trabajos/22.jpg" alt="Third slide" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>
